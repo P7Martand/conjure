@@ -1,0 +1,95 @@
+{
+  "metainfo" : {
+    "type" : "Databricks",
+    "fabricId" : "8288",
+    "jobId" : "jobs/ssd",
+    "name" : "ssd",
+    "schedule" : "None",
+    "scheduleTimeZone" : "UTC",
+    "jobClusterMode" : {
+      "clusterMode" : "Single"
+    },
+    "enabled" : false,
+    "defaultClusterSize" : "prophecy_internal_jobs",
+    "alerting" : {
+      "emails" : "",
+      "onStart" : false,
+      "onSuccess" : false,
+      "onFailure" : false
+    },
+    "maxConcurrentRuns" : 1,
+    "processDefaultSettings" : {
+      "retries" : 0,
+      "alerting" : {
+        "emails" : "",
+        "onStart" : false,
+        "onSuccess" : false,
+        "onFailure" : false
+      },
+      "emails" : "",
+      "onStart" : false,
+      "onSuccess" : false,
+      "onFailure" : false
+    }
+  },
+  "processes" : {
+    "2d1LUXm1pLkdNhPlpvYcY$$QFxJi68fL6VzwOPNCbfF_" : {
+      "id" : "2d1LUXm1pLkdNhPlpvYcY$$QFxJi68fL6VzwOPNCbfF_",
+      "component" : "Model",
+      "metadata" : {
+        "label" : "Model_0",
+        "slug" : "Model_0",
+        "x" : -940,
+        "y" : -440
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "79xavCoUj82mIEtZmtw6f$$Y8Dz3k5SdJpMHiiJBCT7c",
+          "slug" : ""
+        } ],
+        "outputs" : [ {
+          "id" : "57zObhaSIZ1JQtdJex4QQ$$v9ikegZ0OZJWWMhcGVn1i",
+          "slug" : ""
+        } ]
+      },
+      "settings" : {
+        "alerting" : {
+          "emails" : "",
+          "onStart" : false,
+          "onSuccess" : false,
+          "onFailure" : false
+        },
+        "emails" : "",
+        "onStart" : false,
+        "onSuccess" : false,
+        "onFailure" : false
+      },
+      "properties" : {
+        "entityId" : null,
+        "execSeed" : true,
+        "execRun" : false,
+        "gitEntity" : "branch",
+        "projectId" : "33079",
+        "runOnlyModel" : "false",
+        "loadingModels" : false,
+        "entityName" : null,
+        "gitEntityValueTag" : null,
+        "profile" : "run_profile",
+        "sqlFabricId" : "8288",
+        "gitEntityValue" : null,
+        "execDeps" : false,
+        "gitEntityValueCommit" : null,
+        "sqlProjectType" : "databricks",
+        "gitEntityValueBranch" : null,
+        "execTest" : true,
+        "currentProjectModels" : [ {
+          "label" : "sas",
+          "value" : "sas",
+          "id" : "33079/.prophecy/metadata/sqlmodels/sas",
+          "name" : "sas"
+        } ]
+      }
+    }
+  },
+  "connections" : [ ]
+}
