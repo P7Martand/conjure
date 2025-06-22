@@ -1,7 +1,7 @@
 {
   "metainfo" : {
     "type" : "Databricks",
-    "fabricId" : "8288",
+    "fabricId" : "8289",
     "jobId" : "jobs/ssd",
     "name" : "ssd",
     "schedule" : "None",

@@ -1,5 +1,5 @@
 {
-  "fabric_id" : "8288",
+  "fabric_id" : "8289",
   "components" : [ {
     "DBTComponent" : {
       "profilePath" : "dbfs:/FileStore/prophecy/artifacts/staging/cp/__PROJECT_ID_PLACEHOLDER__/__PROJECT_RELEASE_VERSION_PLACEHOLDER__/ssd/Model_0--1403357062/profiles.yml",
